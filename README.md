@@ -6,12 +6,8 @@ Modern gene sequencing technologies are getting cheaper year after year and also
 
 ## Results
 
-\begin{table}[]
-\begin{tabular}{|r|r|l|r|}
-\hline
-\multicolumn{1}{|c|}{**No**} & \multicolumn{1}{c|}{**Model**} & \multicolumn{1}{c|}{**Description**}                                                           & \multicolumn{1}{c|}{**Validation Accuracy**} \\ \hline
-1                            & DNN 1                          & DNN with numerical features only                                                               & 0.66639                                      \\ \hline
-2                            & DNN 2                          & \begin{tabular}[c]{@{}l@{}}DNN with numerical features \\ and more layers\end{tabular}         & 0.57940                                      \\ \hline
-3                            & DNN 3                          & \begin{tabular}[c]{@{}l@{}}DNN with numerical features \\ and categorical feature\end{tabular} & 0.73492                                      \\ \hline
-\end{tabular}
-\end{table}
+| **No** | **Model** |                    **Description**                   | **Validation Accuracy** |
+|:------:|:---------:|:----------------------------------------------------:|:-----------------------:|
+|      1 |     DNN 1 | DNN with numerical features only                     |                 0.66639 |
+|      2 |     DNN 2 | DNN with numerical features  and more layers         |                 0.57940 |
+|      3 |     DNN 3 | DNN with numerical features  and categorical feature |                 0.73492 |
